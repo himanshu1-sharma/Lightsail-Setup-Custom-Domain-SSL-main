@@ -4,6 +4,8 @@
 
 ---
 
+
+
 ### Steps below if you prefer images
 
 Create a Lightsail instance from the **[AWS dashboard](https://lightsail.aws.amazon.com/ls/webapp/home/instances)**
@@ -36,7 +38,7 @@ Click on `Create DNS zone` and enter your domain here
 
 ![domain](images/domain.png)
 
-> I personally use [Google Domains](https://domains.google.com/registrar/) to buy my domains but if you prefer to stay in the ecosystem, Amazon has their own solution called [Route53](https://aws.amazon.com/route53/)
+> I use [Google Domains](https://domains.google.com/registrar/) to buy my domains but if you prefer to stay in the ecosystem, Amazon has their own solution called [Route53](https://aws.amazon.com/route53/)
 
 > I will be using `opensourceme.app` for the rest of this tutorial as I have this one for testing
 
@@ -76,6 +78,12 @@ Delete everything inside
 `rm -rf *`
 
 ![dlt](images/dlt.png)
+
+1: sudo apt-get update
+2: sudo apt-get install nodejs
+3: sudo apt-get install npm
+4: sudo npm install pm2@latest -g
+5: Clone next/react app to the instance
 
 Clone this very repository!
 
