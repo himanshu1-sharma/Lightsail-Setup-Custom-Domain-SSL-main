@@ -79,11 +79,15 @@ Delete everything inside
 
 ![dlt](images/dlt.png)
 
-1: sudo apt-get update
-2: sudo apt-get install nodejs
-3: sudo apt-get install npm
-4: sudo npm install pm2@latest -g
-5: Clone next/react app to the instance
+1: `sudo apt-get update`
+
+2: `sudo apt-get install nodejs`
+
+3: `sudo apt-get install npm`
+
+4: `sudo npm install pm2@latest -g`
+
+5: `Clone next/react app to the instance`
 
 Clone this very repository!
 
